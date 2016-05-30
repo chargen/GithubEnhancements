@@ -6,7 +6,7 @@
 // @author       You
 // @grant        none
 // @include      https://github.com*
-// @downloadURL  https://github.com/martindevans/GithubEnhancements/Github_Trending.js
+// @downloadURL  https://raw.githubusercontent.com/martindevans/GithubEnhancements/master/Github_Trending.js
 // ==/UserScript==
 
 (function () {

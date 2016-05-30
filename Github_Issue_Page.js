@@ -6,7 +6,7 @@
 // @author       You
 // @include      https://github.com/*/*/issues*
 // @grant        none
-// @downloadURL  https://github.com/martindevans/GithubEnhancements/Github_Issue_Page.js
+// @downloadURL  https://raw.githubusercontent.com/martindevans/GithubEnhancements/master/Github_Issue_Page.js
 // ==/UserScript==
 
 (function() {
