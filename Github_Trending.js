@@ -12,8 +12,12 @@
 (function () {
     'use strict';
     
-    //Get the header, there should be only one!
-    var el = document.getElementsByClassName("header-nav left");
+    //get the headers, find the one tagged with attribute role="navigation"
+    var el = Array.from(document.getElementsByClassName("header-nav")).filter(function(element) {
+        return element.getAttribute("role") == "navigation";
+    });
+   
+    console.log(el.length);
     
     if (el.length === 1) {
         
@@ -26,12 +30,12 @@
         
         var container = document.createElement("li");
         container.className = "header-nav-item";
-        
+
         var link = document.createElement("a");
         link.className = "header-nav-link";
         link.href = "https://github.com/trending";
         link.innerHTML = "Trending";
-        
+
         container.appendChild(link);
         el[0].appendChild(container);
     }
